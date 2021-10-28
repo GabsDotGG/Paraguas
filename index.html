@@ -62,7 +62,7 @@
             frameworkUrl: buildUrl + "/Build_Hitest.framework.js",
             codeUrl: buildUrl + "/Build_Hitest.wasm",
         streamingAssetsUrl: "StreamingAssets",
-            companyName: "DefaultCompany",
+            companyName: "Axis Lab",
             productName: "ARWT",
             productVersion: "0.1",
         };
@@ -201,7 +201,11 @@
 
     <a-scene embedded arjs='trackingMethod: best; patternRatio: 0.5; debugUIEnabled: false;' vr-mode-ui="enabled: false" copycanvas>
 
+			<a-marker type="pattern" url="data/markers\Axis.patt" markercontroller="name : Axis"></a-marker>
 			<a-marker type="pattern" url="data/markers\Axislab.patt" markercontroller="name : Axislab"></a-marker>
+			<a-marker type="pattern" url="data/markers\Hiro.patt" markercontroller="name : Hiro"></a-marker>
+			<a-marker type="pattern" url="data/markers\Nutty.patt" markercontroller="name : Nutty"></a-marker>
+			<a-marker type="pattern" url="data/markers\NuttyCardboard.patt" markercontroller="name : NuttyCardboard"></a-marker>
 
         <a-entity camera cameratransform></a-entity>
 
